@@ -1,0 +1,683 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.para{
+    padding: 25px 90px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    color: black;
+}
+h1, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.text-alignment{
+    text-align: justify;
+}
+
+.heading-style{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 42px;
+}
+
+
+
+
+/* navbar and section 1 */
+
+.navbar{
+    position: absolute;
+    background-color: rgb(2, 1, 20);
+}
+
+#sec1 button{
+    border: 1px solid white;
+    background-color: rgb(2, 1, 20);
+    color: white;
+    border-radius: 50px;
+    padding: 12px 15px;
+}
+
+
+.navbar-nav .nav-link{
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: orange;
+    
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-size: 25px;
+}
+
+#sec1{
+    height: calc(100vh - 63.5px);
+    background-color: rgb(2, 1, 20);
+    color: white;
+}
+
+#sec1 h1{
+    font-size: 45px;
+}
+
+#sec1 .container{
+    height: 100%;
+}
+
+#sec1 strong{
+    font-size: 20px;
+    color: orange;
+}
+
+.text-style{
+    background: linear-gradient(
+      to right, 
+      hsl(98 100% 62%), 
+      hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+/* Section 2 */
+
+#sec2 img{
+    width: 100%;
+    height: auto;
+}
+
+#sec2{
+    padding: 55px 0 55px 0;
+}
+
+#sec2 strong{
+    font-size: 18px;
+    color: rgb(238, 155, 0);
+}
+
+
+
+
+
+/* section3 */
+#sec3{
+    padding: 65px 0 65px 0;
+    background-color: rgb(241, 241, 241);
+}
+
+#sec3 img{
+    width: 100%;
+    height: auto; 
+}
+
+#sec3 p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
+.right-align-text{
+    text-align: right;
+}
+
+
+#sec3 .heading-style{
+    -webkit-text-fill-color: rgb(241, 241, 241); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 42px;
+}
+
+/* section 4 */
+
+#sec4{
+    padding: 100px 0 110px 0;
+}
+
+/* section 5 */
+
+#sec5{
+    padding: 45px 0 45px 0;
+    background-color: black;
+    color: white;
+}
+
+#sec5 h3{
+    color: orange;
+}
+
+/* #sec5 .heading-style{
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-size: 42px;
+} */
+
+
+
+
+
+/* section 6 */
+
+#sec6{
+    padding: 45px 0 45px 0;
+}
+
+#sec6 .card{
+    background-color: rgb(214, 214, 216);
+    /* color: white; */
+    padding: 25px 5px;
+}
+
+#sec6 i{
+    font-size: 50px;
+}
+
+#sec6 .fa{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+/* section 7 */
+
+#sec7{
+    padding: 45px 0 45px 0;
+
+}
+
+
+#sec7 .card-shadow{
+    box-shadow: 1px 3px 5px 0px;
+}
+
+
+
+/* section 8 */
+
+
+.footer-row{
+    background-color: #262626;
+    color: white;
+    padding: 80px 0 0 0;
+}
+
+.copyright{
+    background-color: #181818;
+    color: white;
+    padding: 1% 0;
+}
+
+.bottom{
+    color: white;
+    text-decoration: none;
+}
+
+#sec8 .btn-primary{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#sec8 .fa{
+    color: black;
+}
+
+.searchbox{
+    
+    border: 1px solid white;
+    background-color: #262626;
+    width: 95%;
+}
+
+#sec8 .icons .fa{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.footer-text{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#sec8 h5{
+    margin-bottom: 30px;
+}
+
+#sec8 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+#sec8 ul li{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #sec1 h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    #sec1 strong{
+        font-size: 17px;
+        color: orange;
+    }
+
+    #sec1 button{
+        padding: 10px 12px;
+    }
+
+    .heading-style{
+        font-size: 40px;
+    }
+
+    #sec3 .heading-style{
+        font-size: 40px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .navbar-nav .nav-item .nav-link{
+        padding: 10px;
+    }
+
+    #sec1{
+        height: auto;
+    }
+
+    #sec1 .row{
+        flex-direction: column-reverse;
+    }
+
+    #sec1 h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    h2{
+        margin-bottom: 0px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    #sec1 strong{
+        font-size: 17px;
+        color: orange;
+    }
+
+    #sec1 button{
+        padding: 10px 12px;
+    }
+
+    .heading-style{
+        font-size: 40px;
+    }
+
+    #sec3 .heading-style{
+        font-size: 40px;
+    }
+
+    .right-align-text{
+        text-align: center;
+    }
+
+    #sec2 h2{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #sec2 p{
+        text-align: center;
+    }
+
+    #sec2{
+        padding: 45px 0 25px 0;
+    }
+
+    #sec3{
+        padding: 50px 0 45px 0;
+    }
+
+    #sec3 .row{
+        text-align: center;
+    }
+
+    #sec4{
+        padding: 80px 0 90px 0;
+    }
+
+    .para{
+        padding: 10px 20px;
+    }
+
+    #sec5{
+        text-align: center;
+    }
+
+    #sec6{
+        text-align: center;
+    }
+
+    #sec6 .card{
+        margin-bottom: 15px;
+    }
+
+    #sec3 .sec3-col{
+        padding: 15px 50px;
+    }
+
+    .footer-row{
+        padding: 20px 0 0 0;
+    }
+
+    
+    #sec8 .icons .fa{
+        font-size: 20px;
+    }
+    
+    .footer-text{
+        font-size: 17px;
+    }
+    
+    #sec8 h5{
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    #sec1{
+        height: auto;
+    }
+
+    .navbar-nav .nav-item .nav-link{
+        padding: 10px;
+    }
+
+    #sec1 .row{
+        flex-direction: column-reverse;
+    }
+
+    #sec1 h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    #sec3{
+        padding: 40px 0 40px 0;
+    }
+
+    h2{
+        margin-bottom: 0px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    #sec1 strong{
+        font-size: 17px;
+        color: orange;
+    }
+
+    #sec1 button{
+        padding: 10px 12px;
+    }
+
+    .heading-style{
+        font-size: 32px;
+    }
+
+    #sec3 .heading-style{
+        font-size: 32px;
+    }
+
+    .right-align-text{
+        text-align: center;
+    }
+
+    #sec2 h2{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #sec2 p{
+        text-align: center;
+    }
+
+    #sec2{
+        padding: 45px 0 25px 0;
+    }
+
+    
+
+    #sec3 .row{
+        text-align: center;
+    }
+
+    #sec4{
+        padding: 60px 0 70px 0;
+    }
+
+    .para{
+        padding: 10px 20px;
+    }
+
+    #sec5{
+        text-align: center;
+    }
+
+    #sec6{
+        text-align: center;
+    }
+
+    #sec6 .card{
+        margin-bottom: 15px;
+    }
+
+    #sec3 .sec3-col{
+        padding: 0px 50px 0 50px;
+    }
+
+    #sec3 p{
+        font-size: 14px;
+    }
+
+    #sec7{
+        padding: 0;
+    
+    }
+
+    .footer-row{
+        padding: 20px 0 0 0;
+    }
+
+    
+    #sec8 .icons .fa{
+        font-size: 20px;
+    }
+    
+    .footer-text{
+        font-size: 17px;
+    }
+    
+    #sec8 h5{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 575px){
+    #sec1{
+        height: auto;
+    }
+
+    #sec1 .row{
+        flex-direction: column-reverse;
+    }
+
+   .navbar-nav .nav-item .nav-link{
+    padding: 5px;
+}
+
+    #sec1 h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    h2{
+        margin-bottom: 0px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    #sec1 strong{
+        font-size: 17px;
+        color: orange;
+    }
+
+    #sec3{
+        padding: 40px 0 40px 0;
+    }
+
+    #sec1 button{
+        padding: 10px 12px;
+    }
+
+    .heading-style{
+        font-size: 32px;
+    }
+
+    #sec3 .heading-style{
+        font-size: 32px;
+    }
+
+    .right-align-text{
+        text-align: center;
+    }
+
+    #sec2 h2{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    #sec2 p{
+        text-align: center;
+    }
+
+    #sec2{
+        padding: 25px 0 20px 0;
+    }
+
+    
+
+    #sec3 .row{
+        text-align: center;
+    }
+
+    #sec4{
+        padding: 50px 0 60px 0;
+    }
+
+    .para{
+        padding: 10px 20px;
+    }
+
+    #sec5{
+        text-align: center;
+    }
+
+    #sec6{
+        text-align: center;
+    }
+
+    #sec6 .card{
+        margin-bottom: 15px;
+    }
+
+    #sec3 .sec3-col{
+        padding: 0px 50px 0 50px;
+    }
+
+    #sec3 img{
+        margin-bottom: 15px;
+    }
+
+    #sec3 p{
+        font-size: 14px;
+    }
+
+    #sec7{
+        padding: 0;
+    
+    }
+
+    .footer-row{
+        padding: 20px 0 0 0;
+    }
+
+    
+    #sec8 .icons .fa{
+        font-size: 20px;
+    }
+    
+    .footer-text{
+        font-size: 17px;
+    }
+    
+    #sec8 h5{
+        margin-bottom: 20px;
+    }
+
+    #sec5 p{
+        padding: 0px 40px;
+    }
+}
